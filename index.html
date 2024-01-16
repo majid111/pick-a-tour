@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pick a Tour</title>
-    
+
     <link rel="stylesheet" href="Style/navstyle.css">
     <link rel="stylesheet" href="Style/Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,800&display=swap"
+        rel="stylesheet">
 
 
 </head>
+
 <body>
     <!-- Header Starts -->
     <header>
@@ -33,51 +37,65 @@
         </nav>
         <div class="banner">
             <h1>Explore Your Travel</h1>
-            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis
+                sapien urna eu phasellus.</p>
             <div class="input-field">
-                <input type="text" name="Place" placeholder="Where go" id="">
-                <select name="Time" id="Time">
-                    <option value="Default">When</option>
-                    <option value="Economy">January</option>
-                    <option value="Budget">February</option>
-                    <option value="Premium">March</option>
-                    <option value="Business">April</option>
-                    <option value="Economy">May</option>
-                    <option value="Budget">June</option>
-                    <option value="Premium">July</option>
-                    <option value="Business">August</option>
-                    <option value="Economy">September</option>
-                    <option value="Budget">October</option>
-                    <option value="Premium">November</option>
-                    <option value="Business">December</option>
-                  </select>
-                <select name="Packages" id="Packages">
-                    <option value="Default">Select Type</option>
-                    <option value="Economy">Economy</option>
-                    <option value="Budget">Budget</option>
-                    <option value="Premium">Premium</option>
-                    <option value="Business">Business</option>
-                  </select>
-                <button class="btn-primary" type="submit"><div class="search-btn">
-                    <img src="Images/Icons/Search.png" alt="">Find Now
-                </div></button>
+                <div><input type="text" name="Place" placeholder="Where go" id="">
+                </div>
+                <div><select name="Time" id="Time">
+                        <option value="Default"><span class="placeholder">When</span></option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                </div>
+
+                <div><select name="Packages" id="Packages">
+                        <option value="Default"><span class="placeholder">Select Type</span></option>
+                        <option value="Economy">Economy</option>
+                        <option value="Budget">Budget</option>
+                        <option value="Premium">Premium</option>
+                        <option value="Business">Business</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn-primary" type="submit">
+                        <div class="search-btn">
+                            <img src="Images/Icons/Search.png" alt="">Find Now
+                        </div>
+                    </button>
+                </div>
             </div>
         </div>
 
     </header>
     <!-- Main Starts -->
     <main>
-        <Section>
+        <Section class="section-1">
             <div>
-                <h2></h2>
-                <p>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                <h2 class="title-primary">Our Popular Tours</h2>
+                <p class="p-primary">
+                    Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
+                <ul>
+                    <li class="p-primary">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                    <li class="p-primary">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                    <li class="p-primary">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                </ul>
+                <span class="section-1-p">Amet consectetur. Vulputate commodo felis molestie risus 
+                    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </span>
                 </p>
-                <button class="btn-primary">Read More</button>
+                <div class="section-1-1">
+                    <button class="btn-primary">Read More</button>
+                </div>
             </div>
             <div>
                 <img src="Images/Rectangle 4.png" alt="">
@@ -85,9 +103,14 @@
 
         </Section>
 
-        <section>
-            <div>
-                <h2></h2>
+        <section class="section-2">
+            <div class="section-2-1">
+                <h2 class="title-primary">Choose Your Destination</h2>
+                <div>
+                    <p class="p-primary">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                </div>
+            </div>
+            <div class="image-container">
                 <div class="image-1">
                     <img src="Images/Rectangle 5.png" alt="">
                     <h3 class="imagename">Maldives</h3>
@@ -96,6 +119,8 @@
                     <img src="Images/Rectangle 8.png" alt="">
                     <h3 class="imagename">Indonesia</h3>
                 </div>
+            </div>
+            <div class="image-container">
                 <div class="image-3">
                     <img src="Images/Rectangle 6.png" alt="">
                     <h3 class="imagename">Srilanka</h3>
@@ -107,7 +132,9 @@
                 <div class="image-5">
                     <img src="Images/Rectangle 9.png" alt="Kashmir">
                     <h3 class="imagename">Kashmir</h3>
-                </div>
+                </div> 
+            </div>
+            <div class="image-container">
                 <div class="image-6">
                     <img src="Images/Rectangle 11.png" alt="">
                     <h3 class="imagename">Bangladesh</h3>
@@ -122,36 +149,43 @@
         <Section>
             <div>
                 <h3>Why Choose Us</h3>
-                <p class="p-primary">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <p class="p-primary">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
+                    Sodales dictumst nec nibh pellentesque.</p>
                 <div class="service-card">
                     <img src="Images/Icons/hotel.png" alt="">
                     <h4 class="service-des-title">Handpicked Hotels</h4>
-                    <P class="p-primary">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </P>
+                    <P class="p-primary">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+                        Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+                    </P>
                 </div>
                 <div class="service-card">
                     <img src="Images/Icons/map.png" alt="">
                     <h4 class="service-des-title">World Class Service</h4>
-                    <P class="p-primary">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </P>
+                    <P class="p-primary">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+                        Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+                    </P>
                 </div>
                 <div class="service-card">
                     <img src="Images/Icons/tag.png" alt="">
                     <h4 class="service-des-title">Best Price Guarantee</h4>
-                    <P class="p-primary">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </P>
+                    <P class="p-primary">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+                        Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+                    </P>
                 </div>
 
             </div>
         </Section>
         <section>
-                <div>
-                    <h3>Newsletter</h3>
-                    <p></p>
-                    <input type="text" placeholder="Enter your name">
-                    <input type="email" name="" id="" placeholder="Enter your email">
-                    <button type="submit">Subscribe</button>
-                </div>
-                <div>
-                    <img src="Images/Rectangle 8 (1).png" alt="">
-                </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p></p>
+                <input type="text" placeholder="Enter your name">
+                <input type="email" name="" id="" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </div>
+            <div>
+                <img src="Images/Rectangle 8 (1).png" alt="">
+            </div>
         </section>
 
     </main>
@@ -162,7 +196,8 @@
                 <img src="Images/Group 40071 (2).png" alt="">
                 <h2>Pick <span class="title-color">a Tour</span></h2>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+            <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo
+                erat maecenas vitae elementum ultricies nullam. </p>
         </Div>
         <div>
             <img src="" alt="">
@@ -171,8 +206,11 @@
             <img src="" alt="">
         </div>
         <hr>
-        <div><p>2017, All Rights Reserved.</p></div>
-        
+        <div>
+            <p>2017, All Rights Reserved.</p>
+        </div>
+
     </footer>
 </body>
+
 </html>

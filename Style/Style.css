@@ -1,5 +1,6 @@
 * {
     font-family: 'Mulish', sans-serif;
+    margin: 0;
 }
 
 body {
@@ -10,6 +11,44 @@ body {
 /* header{
     height: 54rem;
 } */
+/* Shared  */
+.btn-primary {
+    color: #FFF;
+    border: 0px;
+    padding: .8rem 1.8rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 9.6rem;
+    height: 2.8rem;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.title-primary {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.p-primary {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.image-container{
+    display: flex;
+    gap: 1.5rem;
+    flex: 1;
+}
+
+
+/* Shared ends */
+/* Nav */
 nav {
     display: flex;
     align-items: center;
@@ -30,27 +69,18 @@ nav>ul a {
     align-items: center;
 }
 
+/*Banner  */
+
 .banner {
     text-align: center;
     padding: 6rem 10.27rem;
-    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    margin: 3rem 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
 }
 
-.btn-primary {
-    color: #FFF;
-    border: 0px;
-    padding: .8rem 1.8rem;
-    font-size: 0.8rem;
-    font-weight: 700;
-    width: 9.6rem;
-    height: 2.8rem;
-    border-radius: 8px;
-    background: #FF5400;
-}
-
 .search-btn {
-
     display: flex;
     align-items: center;
 }
@@ -58,6 +88,55 @@ nav>ul a {
 .input-field {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
+    padding: .8rem;
+    display: flex;
+    align-items: center;
 }
 
-input {}
+header>div input,
+select {
+    padding: .8rem .75rem;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 1.5rem;
+}
+
+.placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* section -1 */
+.section-1 {
+    display: flex;
+    margin-top: 6.22rem;
+    gap: 3.25rem;
+}
+
+.section-1-p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-1-1 {
+    margin-top: 1.8rem;
+}
+/* image section */
+
+.section-2{
+    text-align: center;
+    margin: 6.22rem 0;
+}
+.section-2 p{
+    margin: 1.5rem 0 3rem;
+    max-width: 35rem;
+    padding: 0 20rem;
+}
+/* .picture-article{
+    max-width: 35rem;
+    margin: 1.5rem 0 3rem;
+} */
