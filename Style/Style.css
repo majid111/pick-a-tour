@@ -1,0 +1,63 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    padding: 50px 135px 0px;
+}
+
+/* header{
+    height: 54rem;
+} */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 2rem;
+}
+
+nav>ul a {
+    text-decoration: none;
+}
+
+.title-logo {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    text-align: center;
+    padding: 6rem 10.27rem;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+.btn-primary {
+    color: #FFF;
+    border: 0px;
+    padding: .8rem 1.8rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 9.6rem;
+    height: 2.8rem;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.search-btn {
+
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+input {}
