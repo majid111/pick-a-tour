@@ -474,10 +474,6 @@ hr {
     max-width: 35rem;
     margin: 1.5rem 0 3rem;
 } */
-
-}
-
-
 .service-card {
     max-width: 31.8rem;
     border-radius: .9rem;
@@ -497,3 +493,7 @@ hr {
 footer {
     padding: 33px 44px;
 }
+
+}
+
+
