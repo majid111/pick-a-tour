@@ -5,12 +5,18 @@
 
 body {
     max-width: 1440px;
+}
+
+main {
     padding: 50px 135px 0px;
 }
 
-/* header{
-    height: 54rem;
-} */
+header {
+    padding: 50px 135px 0px;
+}
+
+
+
 /* Shared  */
 .btn-primary {
     color: #FFF;
@@ -20,21 +26,25 @@ body {
     font-weight: 700;
     width: 9.6rem;
     height: 2.8rem;
-    border-radius: 8px;
+    border-radius: .48rem;
     background: #FF5400;
 }
 
 .title-primary {
     color: #131318;
-    font-family: Mulish;
-    font-size: 40px;
+    font-size: 2.22rem;
+    font-weight: 800;
+}
+
+.title-color {
+    color: #FF5400;
+    font-size: 1.78rem;
     font-weight: 800;
 }
 
 .p-primary {
     color: rgba(19, 19, 24, 0.70);
-    font-family: Mulish;
-    font-size: 16px;
+    font-size: .9rem;
     font-weight: 400;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -46,6 +56,10 @@ body {
     flex: 1;
 }
 
+.title-logo {
+    display: flex;
+    align-items: center;
+}
 
 /* Shared ends */
 /* Nav */
@@ -60,13 +74,19 @@ nav ul li {
     margin-left: 2rem;
 }
 
-nav>ul a {
+
+nav a {
     text-decoration: none;
+    color: #424247;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
-.title-logo {
-    display: flex;
-    align-items: center;
+.nav a>.home {
+    text-decoration: none;
+    color: #FF5400;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 /*Banner  */
@@ -75,9 +95,21 @@ nav>ul a {
     text-align: center;
     padding: 6rem 10.27rem;
     margin: 3rem 0;
-    border-radius: 16px;
+    border-radius: .9rem;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 3.55rem;
+    font-weight: 800;
+}
+.banner p {
+    margin: 1.33rem 0 2.67rem;
+    color: #FFF;
+font-size: .9rem;
+font-weight: 400;
 }
 
 .search-btn {
@@ -86,25 +118,23 @@ nav>ul a {
 }
 
 .input-field {
-    border-radius: 8px;
+    border-radius: .48rem;
     background: rgba(255, 255, 255, 0.30);
     padding: .8rem;
     display: flex;
     align-items: center;
 }
 
-header>div input,
-select {
-    padding: .8rem .75rem;
-    border-radius: 5px;
+header>div input,select {
+    padding: .8rem 1.5rem;
+    border-radius: .3rem;
     border: 0;
     margin-right: 1.5rem;
 }
 
 .placeholder {
     color: rgba(19, 19, 24, 0.50);
-    font-family: Mulish;
-    font-size: 16px;
+    font-size: .9rem;
     font-weight: 400;
 }
 
@@ -117,8 +147,7 @@ select {
 
 .section-1-p {
     color: #5A5A5D;
-    font-family: Mulish;
-    font-size: 16px;
+    font-size: .9rem;
     font-weight: 400;
 }
 
@@ -133,7 +162,7 @@ select {
     margin: 6.22rem 0;
 }
 
-.section-2,
+.section-2 p,
 .section-3-01 p {
     margin: 1.5rem 0 3rem;
     max-width: 35rem;
@@ -147,8 +176,8 @@ select {
 
 /* section - 3 */
 .service-card {
-    max-width: 31.8rem ;
-    border-radius: 16px;
+    max-width: 31.8rem;
+    border-radius: .9rem;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 1.78rem 3rem 1.78rem 1.78rem;
@@ -156,21 +185,85 @@ select {
 
 .service-des-title {
     color: #131318;
-    font-family: Mulish;
     font-size: 1.33rem;
     font-weight: 800;
 }
-.section-3{
+
+.section-3 {
     text-align: center;
 }
-.section-3-1{
+
+.section-3-1 {
     display: flex;
     gap: 1.33rem;
     margin-bottom: 1.33rem;
 }
-.section-3-2{
+
+.section-3-2 {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 6.22rem;
 }
-/* sec */
+
+/* section 4 */
+
+.section-4 {
+    display: flex;
+    gap: 1.33rem;
+    margin-bottom: 5.5rem;
+}
+
+.section-4-1 {
+    padding: 2.2rem;
+    border-radius: .9rem;
+    border: 1px solid #FF5400;
+}
+
+.section-4-1 input {
+    border: 0;
+    padding: 0.9rem 1.1rem;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1.33rem;
+    width: 80%;
+}
+
+.section-4-1 button {
+    width: 90%;
+}
+
+/* footer Starts here */
+footer {
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 6.1rem 18.6rem;
+    margin: 0;
+}
+
+.footer-1 {
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-logo div {
+    display: flex;
+    align-items: center;
+}
+
+.social img {
+    margin-left: 3rem;
+}
+
+hr {
+    margin: 2.78rem 0;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.footer-1 p {
+    margin-top: .8rem;
+    margin-bottom: 1.83rem;
+}
