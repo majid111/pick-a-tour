@@ -36,11 +36,18 @@ header {
     font-weight: 800;
 }
 
+.title-logo h2 {
+    color: #131318;
+    font-size: 1.78rem;
+    font-weight: 800;
+}
+
 .title-color {
     color: #FF5400;
     font-size: 1.78rem;
     font-weight: 800;
 }
+
 
 .p-primary {
     color: rgba(19, 19, 24, 0.70);
@@ -61,8 +68,22 @@ header {
     align-items: center;
 }
 
+
+
 /* Shared ends */
 /* Nav */
+
+.mobile-menu {
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+.mobile-menu img {
+    width: 100%;
+    height: 100%;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -100,16 +121,17 @@ nav a {
     background-repeat: no-repeat;
 }
 
-.banner h1 {
+.banner-title {
     color: #FFF;
     font-size: 3.55rem;
     font-weight: 800;
 }
+
 .banner p {
     margin: 1.33rem 0 2.67rem;
     color: #FFF;
-font-size: .9rem;
-font-weight: 400;
+    font-size: .9rem;
+    font-weight: 400;
 }
 
 .search-btn {
@@ -125,7 +147,8 @@ font-weight: 400;
     align-items: center;
 }
 
-header>div input,select {
+header>div input,
+select {
     padding: .8rem 1.5rem;
     border-radius: .3rem;
     border: 0;
@@ -167,6 +190,18 @@ header>div input,select {
     margin: 1.5rem 0 3rem;
     max-width: 35rem;
     padding: 0 20rem;
+}
+
+/* .image-1 {
+    position: relative;
+} */
+
+.imagename {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    top: -10rem;
 }
 
 /* .picture-article{
@@ -232,6 +267,34 @@ header>div input,select {
     width: 90%;
 }
 
+.rotate-class-div {
+    position: relative;
+}
+
+.rotate-class {
+    width: 18rem;
+    height: 6.67rem;
+    transform: rotate(-19.628deg);
+    border-radius: .9rem;
+    background: #FF5400;
+    position: absolute;
+    right: .4rem;
+    top: 17rem;
+}
+
+.rotate-class h3 {
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight: 400;
+}
+
+.rotate-class h4 {
+    color: #FFF;
+    font-size: 1.78rem;
+    font-weight: 800;
+}
+
+
 /* footer Starts here */
 footer {
     text-align: center;
@@ -247,6 +310,12 @@ footer {
 .footer-logo {
     display: flex;
     justify-content: space-evenly;
+}
+
+.title-logo h2 {
+    color: #131318;
+    font-size: 1.6rem;
+    font-weight: 800;
 }
 
 .footer-logo div {
@@ -266,4 +335,165 @@ hr {
 .footer-1 p {
     margin-top: .8rem;
     margin-bottom: 1.83rem;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    root: {
+        font-size: 16px;
+    }
+
+    body {
+        max-width: auto;
+
+    }
+
+    header {
+        padding: 10px 20px 0px;
+        margin: 0px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #ff550093;
+        padding-left: 50px;
+    }
+
+    .mobile-menu:hover .dropdown {
+        display: block;
+
+    }
+
+    .p-primary {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: .9rem;
+        font-weight: 400;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    main {
+        padding: 10px 20px 0px;
+        margin: 0px;
+    }
+
+    .banner-title {
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+
+    .title-primary {
+        color: #131318;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    .title-color {
+        color: #FF5400;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    .input-field {
+        flex-direction: column;
+        padding: 0.9rem;
+        margin: 1.33rem;
+    }
+
+    .input {
+        width: 300px;
+        margin: .65rem;
+        padding: .8rem 1rem;
+    }
+
+    .banner {
+        padding: 28px 24px;
+    }
+
+    /* section -1 */
+    .section-1 {
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+
+    .section-1-p {
+        color: #5A5A5D;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+
+    .section-1-1 {
+        margin-top: .5rem;
+    }
+
+    /* section-2 */
+    .section-2 {
+        text-align: center;
+        margin: 2.6rem 0;
+    }
+
+    .section-2 p,
+    .section-3-01 p {
+        margin: 1.5rem 0 3rem;
+        max-width: 35rem;
+        padding: 0 2rem;
+    }
+
+    .image-container {
+        flex-direction: column;
+        gap: .8rem;
+
+
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* .image-1 {
+    position: relative;
+} */
+
+    .imagename {
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+        position: relative;
+        top: -10rem;
+    }
+
+    /* .picture-article{
+    max-width: 35rem;
+    margin: 1.5rem 0 3rem;
+} */
+
+}
+
+
+.service-card {
+    max-width: 31.8rem;
+    border-radius: .9rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 1.78rem 3rem 1.78rem 1.78rem;
+}
+
+.section-3-1 {
+    flex-direction: column;
+}
+
+.section-4 {
+    flex-direction: column;
+}
+
+footer {
+    padding: 33px 44px;
 }
