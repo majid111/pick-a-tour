@@ -40,7 +40,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.image-container{
+.image-container {
     display: flex;
     gap: 1.5rem;
     flex: 1;
@@ -125,18 +125,52 @@ select {
 .section-1-1 {
     margin-top: 1.8rem;
 }
+
 /* image section */
 
-.section-2{
+.section-2 {
     text-align: center;
     margin: 6.22rem 0;
 }
-.section-2 p{
+
+.section-2,
+.section-3-01 p {
     margin: 1.5rem 0 3rem;
     max-width: 35rem;
     padding: 0 20rem;
 }
+
 /* .picture-article{
     max-width: 35rem;
     margin: 1.5rem 0 3rem;
 } */
+
+/* section - 3 */
+.service-card {
+    max-width: 31.8rem ;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 1.78rem 3rem 1.78rem 1.78rem;
+}
+
+.service-des-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.33rem;
+    font-weight: 800;
+}
+.section-3{
+    text-align: center;
+}
+.section-3-1{
+    display: flex;
+    gap: 1.33rem;
+    margin-bottom: 1.33rem;
+}
+.section-3-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6.22rem;
+}
+/* sec */
